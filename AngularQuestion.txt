@@ -1,0 +1,39 @@
+if(true) {
+	var i =10;
+	console.log(i);
+}
+console.log(i);
+-----------------------
+if(true) {
+	let i =10;
+	console.log(i);
+}
+console.log(i);
+-----------------------
+var i =10;
+let j =10;
+
+i = "Hello";
+j = "Hello";
+
+console.log(i);
+console.log(j);
+-----------------------
+<tr *ngIf="IsAdmin" *ngFor="let cust of Customers">
+	<td>...</td>
+</tr>
+-----------------------
+<div>
+Hello Friends
+</div>
+
+ABCDEFG
+<app-child></app-child>
+HIJKLMN
+<app-child></app-child>
+OPQRSTU
+<app-child></app-child>
+VWXYZ
+<app-child></app-child>
+
+
